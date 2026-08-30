@@ -8,4 +8,12 @@ function getComputerChoice(){
     return pick;
 }
 
+// Takes the user choice and returns it
+function getHumanChoice(){
+    let humanPick = prompt("Your move: ", "rock, paper, or scissors");
+    return humanPick;
+}
+
+
 getComputerChoice();
+getHumanChoice();
