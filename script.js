@@ -48,3 +48,14 @@ function playRound(humanChoice, computerChoice){
     }
 }
 
+function playGame(){
+    for(let round = 0; round < 5; round++){
+        const humanSelection = getHumanChoice();
+        const computerSelection = getComputerChoice();
+        playRound(humanSelection, computerSelection);
+    }
+    let winner = humanScore >= computerScore ? `You win the game! ${humanScore} vs ${computerScore}` : `You lose the game! ${humanScore} vs ${computerScore}`;
+    console.log(winner); 
+}
+
+playGame();
