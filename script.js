@@ -48,6 +48,7 @@ function playRound(humanChoice, computerChoice){
     }
 }
 
+// Plays a game of 5 rounds and consoles the winner
 function playGame(){
     for(let round = 0; round < 5; round++){
         const humanSelection = getHumanChoice();
