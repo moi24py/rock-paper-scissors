@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./script.js" type="module"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" type="module" defer></script>
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    
+<h1>. rock . paper . scissors .</h1>
+<div class="game">
+    <div class="human">
+        <h2>human: <span id="human-pt"></span> pt</h2>
+        <div class="buttons">
+            <button class="pick" id="rock">rock</button>
+            <button class="pick" id="paper">paper</button>
+            <button class="pick" id="scissors">scissors</button>
+        </div>
+
+    </div>
+    <div class="vs-div">
+        <div class="vs"><span>vs</span></div>
+    </div>
+    <div class="computer">
+        <h2>computer: <span id="computer-pt"></span> pt</h2>
+        <div class="computer-choice"></div>
+    </div>
+</div>
+
 </body>
 </html>
+
+<!-- U+1FAA8 -->
