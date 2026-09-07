@@ -140,7 +140,7 @@ function getHumanChoice(){
     });
 }
 
-// For a clean start up, 
+// For a clean startup, remove the node only after it has been created.
 if (getHumanChoice()) {
     computerShowBtn.textContent = ""
     computerShowDiv.removeChild(computerShowBtn);
