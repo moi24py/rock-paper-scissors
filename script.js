@@ -139,3 +139,9 @@ function getHumanChoice(){
         playRound("scissors", getComputerChoice());
     });
 }
+
+// For a clean start up, 
+if (getHumanChoice()) {
+    computerShowBtn.textContent = ""
+    computerShowDiv.removeChild(computerShowBtn);
+}
