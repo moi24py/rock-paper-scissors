@@ -29,3 +29,9 @@ computerShowBtn.setAttribute("style", "padding: 8px; width: 85px; border-radius:
 const matchDiv = document.createElement("div");
 matchDiv.classList.add(".match-div");
 matchDiv.setAttribute("style", "display:flex; align-items: center; justify-content: center; width: 90%; height: 100px; background-color:rgb(1,49,88); margin: 0 auto; text-align: center; text-transform: uppercase; color: rgb(240, 197, 88); font-size: xx-large;");
+
+// Show the winner of the game
+const endGame = document.createElement("div");
+endGame.classList.add(".end-game-div");
+endGame.setAttribute("style", "display:flex; align-items: center; justify-content: center; width: 90%; height: 100px; background-color: rgb(240, 197, 88); margin: 0 auto; text-align: center; text-transform: uppercase; color: rgb(1,49,88); font-size: xx-large;");
+
