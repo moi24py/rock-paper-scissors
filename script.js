@@ -121,6 +121,10 @@ function playRound(humanChoice, computerChoice){
             computerShowDiv.removeChild(computerShowBtn);
             body.removeChild(matchDiv);
             body.removeChild(endGame);
+            rock.style.display = "block";
+            paper.style.display = "block";
+            scissors.style.display = "block";
+            computerShowBtn.style.display = "block";
             newGame.remove();
         })
     }
