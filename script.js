@@ -125,3 +125,17 @@ function playRound(humanChoice, computerChoice){
         })
     }
 }
+
+function getHumanChoice(){
+    rock.addEventListener("click", () => {
+        playRound("rock", getComputerChoice());
+    });
+
+    paper.addEventListener("click", () => {
+        playRound("paper", getComputerChoice());
+    });
+
+    scissors.addEventListener("click", () => {
+        playRound("scissors", getComputerChoice());
+    });
+}
