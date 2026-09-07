@@ -1,0 +1,96 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(1,49,88);
+    background-image: url("./imgs/bkgnd.png");
+    background-repeat: repeat;
+    background-size: 150px auto;
+}
+
+h1 {
+    color: rgb(240, 197, 88);
+    font-weight: 900;
+    font-size: clamp(2rem, 5vw, 4rem);
+    text-transform: uppercase;
+    background-color: rgb(1,49,88);
+    text-align: center;
+    padding: 30px;
+}
+
+.game {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: 180px;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #003366; */
+}
+
+.human,
+.computer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0;
+    flex-basis: 280px;
+    min-width: 280px;
+    height: 150px;
+    background-color: rgb(1,49,88);
+}
+
+.human h2,
+.computer h2 {
+    color: rgb(255, 60, 21);
+    text-transform: uppercase;
+    
+}
+
+.buttons {
+    width:280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.buttons button {
+    padding: 8px;
+    width: 85px;
+    border-radius: 5px;
+    border: 1px solid rgb(240, 197, 88);
+    background-color: rgb(240, 197, 88);
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 3px 3px rgb(255, 60, 21);
+}
+
+.vs-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 70px;
+    height: 150px;
+    background-color:rgb(1,49,88);
+}
+.vs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 70px;
+    min-height: 70px;
+    background-color: rgb(255, 60, 21);
+    border-radius: 50%;
+    font-size: xx-large;
+}
+
+.vs span {
+    color:#003366;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+.pick:focus {
+    background-color: rgb(255, 60, 21);
+    border: 1px solid rgb(255, 60, 21);
+}
